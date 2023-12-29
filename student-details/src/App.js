@@ -533,10 +533,11 @@ const App = () => {
         <p><strong>Phone:</strong> {student.PhoneNumber}</p>
         <p><strong>Qualification:</strong> {student.Qualification}</p>
         <p><strong>Interested Roles:</strong> {student.InterestedRoles}</p>
+        <span className='links'><strong>Linkedin</strong> <a href={student.LinkedIn} target="_blank" rel="noopener noreferrer" class="">{student.LinkedIn}</a></span>
+       <span className='links'> <strong>GitHub</strong><a href={student.Github} target="_blank" rel="noopener noreferrer" class="">{student.Github}</a></span>
       </div>
-      <div class="card-footer">
-        <a href={student.LinkedIn} target="_blank" rel="noopener noreferrer" class="contact-link">{student.LinkedIn}</a>
-        <a href={student.Github} target="_blank" rel="noopener noreferrer" class="contact-link">{student.LinkedIn}</a>
+      <div class="">
+     
       </div>
     </div>
   ))}
