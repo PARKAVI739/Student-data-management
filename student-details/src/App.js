@@ -245,7 +245,6 @@ const students = [
     "Github": "https://github.com/ellaturner"
   }
 ];
-
 const App = () => {
   const tableRef = useRef();
 
